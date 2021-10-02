@@ -1,0 +1,16 @@
+#header {
+  position: relative;
+  z-index: 1;
+  & .navbar {
+    background-color: transparent !important;
+  }
+  & img {
+    max-height: 70px;
+  }
+
+  & a {
+    color: $colour-header;
+    font-size: 18px;
+    padding: 20px;
+  }
+}

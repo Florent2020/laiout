@@ -1,0 +1,105 @@
+.contact {
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  & form {
+    // width: 55%;
+    // margin: 0 auto;
+    padding: 15% 5% 10%;
+    background-color: #fff;
+    box-shadow: 0px 0px 25px 0px rgba(170 170 170 / 25%);
+    border-radius: 51px;
+    position: relative;
+
+    & h2 {
+      text-align: center;
+      line-height: 1.2;
+      font-size: 25px;
+      font-weight: normal;
+      color: #3e3e3e;
+      letter-spacing: normal;
+      margin-bottom: 40px;
+    }
+
+    & label {
+      color: #444444;
+      font-size: 14px;
+    }
+
+    & span {
+      color: #b8312f;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    & .form-control {
+      color: rgba(129, 129, 129, 1);
+      border-radius: 19px;
+      background-color: #ffffff;
+      border: 1px solid rgba(150, 150, 150, 0.3);
+      padding: 18px 20px;
+      box-sizing: border-box;
+      width: 100%;
+      height: auto;
+      font-size: 13px;
+      outline: 0;
+      transition: background-color 0.3s ease, border-color 0.3s ease;
+    }
+
+    & input {
+      margin-bottom: 10px;
+    }
+
+    & .form-check {
+      margin: 20px 0;
+    }
+
+    & button {
+      font-size: 22px;
+      color: #ffffff;
+      letter-spacing: 0px;
+      border-width: 0px;
+      padding: 20px 40px;
+      width: 100%;
+      border-radius: 18px;
+      text-transform: uppercase;
+      background-color: #29293d;
+
+      &:hover {
+        background-color: #524141;
+      }
+    }
+  }
+}
+
+.form-check-input:focus,
+.form-check-input:active,
+.form-check-input:checked,
+.form-check-input:checked[type="radio"] {
+  content: "f058";
+  width: 18px;
+  height: 18px;
+  border-color: rgba(77, 105, 175, 1) !important;
+  background-color: rgba(77, 105, 175, 1) !important;
+  box-shadow: none;
+}
+
+@media screen and (min-width: 700px) {
+  .contact {
+    padding: 0;
+
+    & form {
+      width: 55%;
+      margin: 0 auto;
+      padding: 7% 5%;
+      top: -75px;
+
+      & h2 {
+        font-size: 28px;
+        font-weight: bold;
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+$font-family: "DM Sans", sans-serif;
+
+$colour-header: #29293d;
+
+@import "~bootstrap/scss/bootstrap";
+@import "./partials/layout";
+@import "./partials/header";
+@import "./partials/home";
+@import "./partials/about";
+@import "./partials/team";
+@import "./partials/contact";
+@import "./partials/footer";

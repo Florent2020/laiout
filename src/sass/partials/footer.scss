@@ -1,0 +1,56 @@
+footer {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.footer {
+  // width: 0%;
+  // margin: 0 auto;
+  text-align: center;
+  padding-bottom: 80px;
+
+  & .footer-line {
+    display: block;
+    width: 60%;
+    height: 2px;
+    background-color: #e0e0e0;
+    margin: 20px auto;
+  }
+
+  & .fab.fa-linkedin-in {
+    font-size: 28px;
+    margin: 20px auto 40px;
+  }
+
+  & .all-rights {
+    color: #898989;
+    font-size: 15px;
+    margin: 5px 0;
+  }
+
+  & .row:first-of-type {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  & .bolder {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3e3e3e;
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+
+  & .lighter {
+    font-size: 18px;
+    font-weight: 100;
+    color: #3e3e3e;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .footer {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
