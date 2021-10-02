@@ -8,7 +8,7 @@ function Home() {
         Our aim is to disrupt the proptech world by building a tool that will
         forever change the way floor plans are designed.
       </h1>
-      <a href="/">
+      <a href="/#about">
         <button>Learn more</button>
       </a>
       <div className="hero-1">
